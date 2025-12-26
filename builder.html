@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DigiRise | Website Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="top-nav">Website Builder</nav>
+
+<div class="builder">
+
+  <div class="form-section">
+    <h3>Business Information</h3>
+
+    <input type="text" placeholder="Business Name">
+    <select>
+      <option>Salon</option>
+      <option>Restaurant</option>
+      <option>Boutique</option>
+      <option>School</option>
+      <option>Consultancy</option>
+      <option>Other</option>
+    </select>
+
+    <textarea placeholder="Describe your business"></textarea>
+
+    <button onclick="generateWebsite()">Generate Website</button>
+  </div>
+
+  <div class="preview-section">
+    <h3>Website Preview</h3>
+    <div class="preview-box">
+      Your AI-generated website will appear here
+    </div>
+  </div>
+
+</div>
+
+
+<script src="main.js"></script>
+</body>
+</html>
